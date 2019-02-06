@@ -20,6 +20,8 @@ import io.reactivex.Single;
 
 public class NewsRepository {
 
+    private static final String RATE_LIMITER_TYPE = "data";
+
     private final NewsDao newsDao;
     private final INewsAPI iNewsAPI;
 
@@ -40,7 +42,7 @@ public class NewsRepository {
 
             @Override
             protected boolean shouldFetch(@Nullable List<News> data) {
-                return data == null || data.isEmpty() || rateLimiter.shouldFetch("data");
+                return data == null || data.isEmpty() || rateLimiter.shouldFetch(RATE_LIMITER_TYPE);
             }
 
             @NotNull
@@ -59,7 +61,7 @@ public class NewsRepository {
 
             @Override
             protected void onFetchFailed() {
-                rateLimiter.reset("data");
+                rateLimiter.reset(RATE_LIMITER_TYPE);
             }
         }.getAsLiveData();
     }

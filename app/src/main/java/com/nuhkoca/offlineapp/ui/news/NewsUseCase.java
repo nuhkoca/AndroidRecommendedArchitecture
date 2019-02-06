@@ -3,7 +3,7 @@ package com.nuhkoca.offlineapp.ui.news;
 import com.nuhkoca.offlineapp.data.local.entity.News;
 import com.nuhkoca.offlineapp.repository.NewsRepository;
 import com.nuhkoca.offlineapp.repository.Resource;
-import com.nuhkoca.offlineapp.repository.UseCase;
+import com.nuhkoca.offlineapp.repository.UseCaseLiveData;
 
 import java.util.List;
 
@@ -14,11 +14,11 @@ import androidx.lifecycle.LiveData;
 import io.reactivex.Single;
 
 /**
- * A [UseCase] pattern for playable content
+ * A [UseCaseLiveData] pattern for playable content
  *
  * @author nuhkoca
  */
-public class NewsUseCase extends UseCase<Resource<List<News>>, String> {
+public class NewsUseCase extends UseCaseLiveData<Resource<List<News>>, String> {
 
     /**
      * A default constructor that inject required dependencies

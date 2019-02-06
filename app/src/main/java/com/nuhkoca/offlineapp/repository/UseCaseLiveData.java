@@ -5,13 +5,13 @@ import androidx.lifecycle.LiveData;
 import io.reactivex.disposables.Disposable;
 
 /**
- * The [UseCase] helper class that runs repository methods
+ * The [UseCaseLiveData] helper class that runs repository methods
  * @param <M> represents model
  * @param <P> represents params
  *
  * @author nuhkoca
  */
-public abstract class UseCase<M, P> {
+public abstract class UseCaseLiveData<M, P> {
 
     private NewsRepository newsRepository;
 
@@ -20,7 +20,7 @@ public abstract class UseCase<M, P> {
      *
      * @param newsRepository represents an instance of {@link NewsRepository}
      */
-    public UseCase(NewsRepository newsRepository) {
+    public UseCaseLiveData(NewsRepository newsRepository) {
         this.newsRepository = newsRepository;
     }
 
