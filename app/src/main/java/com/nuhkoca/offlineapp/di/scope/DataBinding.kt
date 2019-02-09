@@ -1,4 +1,4 @@
-package com.nuhkoca.offlineapp.di.qualifier
+package com.nuhkoca.offlineapp.di.scope
 
 import javax.inject.Scope
 

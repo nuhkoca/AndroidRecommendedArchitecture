@@ -3,7 +3,7 @@ package com.nuhkoca.offlineapp.di.module
 import com.nuhkoca.offlineapp.binding.DateParsingBindingAdapter
 import com.nuhkoca.offlineapp.binding.ImageBindingAdapter
 import com.nuhkoca.offlineapp.binding.ListBindingAdapter
-import com.nuhkoca.offlineapp.di.qualifier.DataBinding
+import com.nuhkoca.offlineapp.di.scope.DataBinding
 
 import androidx.databinding.BindingAdapter
 import dagger.Module
