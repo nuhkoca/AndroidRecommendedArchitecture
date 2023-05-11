@@ -18,7 +18,7 @@ object Versions {
     const val jetbrains = "16.0.3"
     const val retrofit = "2.5.0"
     const val okhttp = "3.12.0"
-    const val glide = "4.8.0"
+    const val glide = "4.15.1"
     const val kotlin_version = "1.3.20"
     const val databinding = "3.3.1"
 }
