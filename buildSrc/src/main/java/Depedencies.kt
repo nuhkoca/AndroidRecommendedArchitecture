@@ -16,7 +16,7 @@ object Versions {
     const val rxjava = "2.2.21"
     const val rxandroid = "2.1.1"
     const val jetbrains = "16.0.3"
-    const val retrofit = "2.5.0"
+    const val retrofit = "2.9.0"
     const val okhttp = "3.12.0"
     const val glide = "4.15.1"
     const val kotlin_version = "1.3.20"
