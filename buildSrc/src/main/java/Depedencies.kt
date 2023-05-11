@@ -6,7 +6,7 @@ object Versions {
     const val version_code = 1
     const val version_name = "1.0"
 
-    const val x = "1.1.0-alpha01"
+    const val x = "1.6.1"
     const val material = "1.9.0"
     const val constraint_layout = "1.1.3"
     const val room = "2.5.1"
