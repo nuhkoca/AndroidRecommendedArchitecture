@@ -13,7 +13,7 @@ object Versions {
     const val dagger = "2.21"
     const val paging = "2.1.2"
     const val livedata = "2.0.0"
-    const val rxjava = "2.2.2"
+    const val rxjava = "2.2.21"
     const val rxandroid = "2.1.1"
     const val jetbrains = "16.0.3"
     const val retrofit = "2.5.0"
