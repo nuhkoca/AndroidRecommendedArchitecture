@@ -14,7 +14,7 @@ object Versions {
     const val paging = "2.1.2"
     const val livedata = "2.0.0"
     const val rxjava = "2.2.2"
-    const val rxandroid = "2.1.0"
+    const val rxandroid = "2.1.1"
     const val jetbrains = "16.0.3"
     const val retrofit = "2.5.0"
     const val okhttp = "3.12.0"
