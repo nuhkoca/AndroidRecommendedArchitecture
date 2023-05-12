@@ -8,7 +8,7 @@ object Versions {
 
     const val x = "1.6.1"
     const val material = "1.9.0"
-    const val constraint_layout = "1.1.3"
+    const val constraint_layout = "2.1.4"
     const val room = "2.5.1"
     const val dagger = "2.46"
     const val paging = "2.1.2"
