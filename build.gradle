@@ -2,7 +2,7 @@
 
 buildscript {
     ext.kotlin_version = '1.9.0'
-    ext.gradle_version = '8.0.2'
+    ext.gradle_version = '8.1.0'
     repositories {
         google()
         jcenter()
