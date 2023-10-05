@@ -7,7 +7,7 @@ object Versions {
     const val version_name = "1.0"
 
     const val x = "1.6.1"
-    const val material = "1.9.0"
+    const val material = "1.10.0"
     const val constraint_layout = "2.1.4"
     const val room = "2.5.2"
     const val dagger = "2.48.1"
