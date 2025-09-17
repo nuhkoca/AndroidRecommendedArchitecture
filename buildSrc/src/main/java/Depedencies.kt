@@ -12,7 +12,7 @@ object Versions {
     const val room = "2.8.0"
     const val dagger = "2.57.1"
     const val paging = "3.3.6"
-    const val livedata = "2.9.3"
+    const val livedata = "2.9.4"
     const val rxjava = "2.2.21"
     const val rxandroid = "2.1.1"
     const val jetbrains = "26.0.2-1"
