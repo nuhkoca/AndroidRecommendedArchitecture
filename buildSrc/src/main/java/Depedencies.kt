@@ -19,7 +19,7 @@ object Versions {
     const val retrofit = "3.0.0"
     const val okhttp = "5.2.1"
     const val glide = "5.0.5"
-    const val kotlin_version = "2.2.20"
+    const val kotlin_version = "2.2.21"
     const val databinding = "8.13.0"
 }
 
