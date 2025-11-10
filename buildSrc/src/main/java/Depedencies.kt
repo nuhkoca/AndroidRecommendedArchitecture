@@ -20,7 +20,7 @@ object Versions {
     const val okhttp = "5.3.0"
     const val glide = "5.0.5"
     const val kotlin_version = "2.2.21"
-    const val databinding = "8.13.0"
+    const val databinding = "8.13.1"
 }
 
 object Libs {
