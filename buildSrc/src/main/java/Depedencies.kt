@@ -11,7 +11,7 @@ object Versions {
     const val constraint_layout = "2.2.1"
     const val room = "2.8.4"
     const val dagger = "2.59"
-    const val paging = "3.3.6"
+    const val paging = "3.4.0"
     const val livedata = "2.10.0"
     const val rxjava = "2.2.21"
     const val rxandroid = "2.1.1"
