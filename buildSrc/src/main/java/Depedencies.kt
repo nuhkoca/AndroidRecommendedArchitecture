@@ -10,7 +10,7 @@ object Versions {
     const val material = "1.13.0"
     const val constraint_layout = "2.2.1"
     const val room = "2.8.4"
-    const val dagger = "2.59"
+    const val dagger = "2.59.1"
     const val paging = "3.4.0"
     const val livedata = "2.10.0"
     const val rxjava = "2.2.21"
